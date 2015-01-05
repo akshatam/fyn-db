@@ -28,8 +28,8 @@ Command line arguments are,
 - Exit neatly with status 0.
 - It seems, lock file creation was not successful, Why :( !!?. Probably because lock file already exists, that means the command is already executing for that particular lock file.
  - (ア)	Check Threshold not 0 and counter file exist; for True log error and return back, For false just return
-   - ①	If Threshold is lesser than Failure counter file’s numeric content, Then rewrite the content of failure counter as 0, return True
-   - ②	Else increment the counter in failure counter file and return False.
+   - If Threshold is lesser than Failure counter file’s numeric content, Then rewrite the content of failure counter as 0, return True
+   - Else increment the counter in failure counter file and return False.
 
 
 ### Failure Counter
